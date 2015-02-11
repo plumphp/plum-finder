@@ -4,6 +4,7 @@
 > Plum is a data processing pipeline that helps you to write structured, reusable and well tested data processing code.
 > `plum-finder` adds support for the [Symfony Finder](http://symfony.com/doc/current/components/finder.html) component.
 
+Developed with &hearts; by [Florian Eckerstorfer](https://florian.ec) in Vienna, Europe.
 
 Installation
 ------------

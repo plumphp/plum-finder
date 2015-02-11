@@ -11,7 +11,7 @@
 
 namespace Plum\PlumFinder;
 
-use \Mockery as m;
+use Mockery;
 
 /**
  * FinderReaderTest
@@ -32,7 +32,7 @@ class FinderReaderTest extends \PHPUnit_Framework_TestCase
 
     public function setUp()
     {
-        $this->finder = m::mock('Symfony\Component\Finder\Finder');
+        $this->finder = Mockery::mock('Symfony\Component\Finder\Finder');
         $this->reader = new FinderReader($this->finder);
     }
 
@@ -42,7 +42,7 @@ class FinderReaderTest extends \PHPUnit_Framework_TestCase
      */
     public function getIteratorShouldReturnIterator()
     {
-        $iterator = m::mock('\Iterator');
+        $iterator = Mockery::mock('\Iterator');
         $this->finder->shouldReceive('getIterator')->andReturn($iterator);
 
         $this->assertEquals($iterator, $this->reader->getIterator());
