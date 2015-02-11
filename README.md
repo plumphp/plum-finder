@@ -19,7 +19,8 @@ $ composer require plumphp/plum-finder:dev-master
 Usage
 -----
 
-Please refer to the [Plum documentation](https://github.com/plumphp/plum/docs/index.md) for more information.
+Please refer to the [Plum documentation](https://github.com/plumphp/plum/blob/master/docs/index.md) for more
+information.
 
 
 Change Log
