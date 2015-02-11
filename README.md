@@ -4,7 +4,11 @@
 > Plum is a data processing pipeline that helps you to write structured, reusable and well tested data processing code.
 > `plum-finder` adds support for the [Symfony Finder](http://symfony.com/doc/current/components/finder.html) component.
 
-Developed with &hearts; by [Florian Eckerstorfer](https://florian.ec) in Vienna, Europe.
+[![Build Status](https://travis-ci.org/plumphp/plum-finder.svg)](https://travis-ci.org/plumphp/plum-finder)
+[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/plumphp/plum-finder/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/plumphp/plum-finder/?branch=master)
+[![Code Coverage](https://scrutinizer-ci.com/g/plumphp/plum-finder/badges/coverage.png?b=master)](https://scrutinizer-ci.com/g/plumphp/plum-finder/?branch=master)
+
+Developed by [Florian Eckerstorfer](https://florian.ec) in Vienna, Europe.
 
 Installation
 ------------
