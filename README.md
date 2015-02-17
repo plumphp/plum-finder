@@ -10,6 +10,7 @@
 
 Developed by [Florian Eckerstorfer](https://florian.ec) in Vienna, Europe.
 
+
 Installation
 ------------
 
@@ -41,4 +42,5 @@ License
 -------
 
 The MIT license applies to plumphp/plum-finder. For the full copyright and license information,
-please view the LICENSE file distributed with this source code.
+please view the [LICENSE](https://github.com/plumphp/plum-finder/blob/master/LICENSE) file distributed with this source
+code.
