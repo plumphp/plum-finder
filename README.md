@@ -31,6 +31,10 @@ information.
 Change Log
 ----------
 
+### Version 1.1.1 (22 April 2015)
+
+- Set minimum Plum version to 0.2
+
 ### Version 1.1 (22 April 2015)
 
 - Add support for ReaderFactory
