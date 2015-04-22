@@ -17,10 +17,8 @@ Installation
 You can install Plum using [Composer](http://getcomposer.org).
 
 ```shell
-$ composer require plumphp/plum-finder:@stable
+$ composer require plumphp/plum-finder
 ```
-
-*Tip:* Replace `@stable` with a version from the [releases page](https://github.com/plumphp/plum-finder/releases).
 
 
 Usage
