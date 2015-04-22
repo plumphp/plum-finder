@@ -12,6 +12,7 @@
 namespace Plum\PlumFinder;
 
 use Mockery;
+use stdClass;
 
 /**
  * FinderReaderTest
@@ -57,5 +58,25 @@ class FinderReaderTest extends \PHPUnit_Framework_TestCase
         $this->finder->shouldReceive('count')->once()->andReturn(2);
 
         $this->assertEquals(2, $this->reader->count());
+    }
+
+    /**
+     * @test
+     * @covers Plum\PlumFinder\FinderReader::accepts()
+     */
+    public function acceptsReturnsTrueIfInputIsFinder()
+    {
+        $this->assertTrue(FinderReader::accepts($this->finder));
+    }
+
+    /**
+     * @test
+     * @covers Plum\PlumFinder\FinderReader::accepts()
+     */
+    public function acceptsReturnsFalseIfInputIsNotFinder()
+    {
+        $this->assertFalse(FinderReader::accepts('invalid'));
+        $this->assertFalse(FinderReader::accepts([]));
+        $this->assertFalse(FinderReader::accepts(new stdClass()));
     }
 }

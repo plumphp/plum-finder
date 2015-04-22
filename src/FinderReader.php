@@ -53,4 +53,14 @@ class FinderReader implements ReaderInterface
     {
         return $this->finder->count();
     }
+
+    /**
+     * @param mixed $input
+     *
+     * @return bool
+     */
+    public static function accepts($input)
+    {
+        return $input instanceof Finder;
+    }
 }
