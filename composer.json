@@ -9,7 +9,7 @@
     }
   ],
   "require": {
-    "plumphp/plum":   "^0.2",
+    "plumphp/plum":   "~0.2",
     "symfony/finder": "~2.5"
   },
   "require-dev": {
