@@ -1,8 +1,9 @@
-<img src="https://florian.ec/img/plum/logo.png" alt="Plum">
-====
+<h1 align="center">
+    <img src="http://cdn.florian.ec/plum-logo.svg" alt="Plum" width="300">
+</h1>
 
-> Plum is a data processing pipeline that helps you to write structured, reusable and well tested data processing code.
-> `plum-finder` adds support for the [Symfony Finder](http://symfony.com/doc/current/components/finder.html) component.
+> PlumFinder integrates the [Symfony Finder](http://symfony.com/doc/current/components/finder.html) component into Plum.
+ Plum is a data processing pipeline for PHP.
 
 [![Build Status](https://img.shields.io/travis/plumphp/plum-finder.svg?style=flat)](https://travis-ci.org/plumphp/plum-finder)
 [![Scrutinizer Code Quality](https://img.shields.io/scrutinizer/g/plumphp/plum-finder.svg?style=flat)](https://scrutinizer-ci.com/g/plumphp/plum-finder/?branch=master)
@@ -25,7 +26,24 @@ Usage
 -----
 
 Please refer to the [Plum documentation](https://github.com/plumphp/plum/blob/master/docs/index.md) for more
-information.
+information about Plum in general.
+
+PlumFinder includes `Plum\PlumFinder\FinderReader` to read directories and files from disk.
+
+### `FinderReader`
+
+You can read directories and files using the [Symfony Finder](http://symfony.com/doc/current/components/finder.html)
+component and `Plum\PlumFinder\FinderReader`.
+
+```php
+use Plum\PlumFinder\FinderReader;
+use Symfony\Component\Finder\Finder;
+
+$finder = new Finder();
+// Further configuration of Finder
+
+$reader = new FinderReader($finder);
+```
 
 
 Change Log
