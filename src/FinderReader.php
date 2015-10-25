@@ -15,9 +15,8 @@ use Plum\Plum\Reader\ReaderInterface;
 use Symfony\Component\Finder\Finder;
 
 /**
- * FinderReader
+ * FinderReader.
  *
- * @package   Plum\PlumFinder
  * @author    Florian Eckerstorfer <florian@eckerstorfer.co>
  * @copyright 2014-2015 Florian Eckerstorfer
  */
