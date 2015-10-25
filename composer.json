@@ -1,14 +1,15 @@
 {
-  "name": "plumphp/plum-finder",
+  "name":        "plumphp/plum-finder",
   "description": "Integrations the Symfony Finder component into Plum.",
-  "license": "MIT",
-  "authors": [
-    {
-      "name": "Florian Eckerstorfer",
-      "email": "florian@eckerstorfer.co"
-    }
-  ],
-  "require": {
+  "keywords":    ["plum", "finder", "import", "export"],
+  "license":     "MIT",
+  "authors":     [{
+      "name":     "Florian Eckerstorfer",
+      "email":    "florian@eckerstorfer.co",
+      "homepage": "https://florian.ec"
+  }],
+  "require":     {
+    "php":            ">=5.5",
     "plumphp/plum":   "~0.2",
     "symfony/finder": "~2.5"
   },
@@ -16,9 +17,7 @@
     "phpunit/phpunit": "~4.3",
     "mockery/mockery": "~0.9"
   },
-  "autoload": {
-    "psr-4": {
-      "Plum\\PlumFinder\\": "src"
-    }
+  "autoload":    {
+    "psr-4": {"Plum\\PlumFinder\\": "src"}
   }
 }
