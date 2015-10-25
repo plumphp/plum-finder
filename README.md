@@ -6,8 +6,10 @@
  Plum is a data processing pipeline for PHP.
 
 [![Build Status](https://img.shields.io/travis/plumphp/plum-finder.svg?style=flat)](https://travis-ci.org/plumphp/plum-finder)
+[![Windows Build status](https://ci.appveyor.com/api/projects/status/eqp9kbkc342kvl8u?svg=true)](https://ci.appveyor.com/project/florianeckerstorfer/plum-finder)
 [![Scrutinizer Code Quality](https://img.shields.io/scrutinizer/g/plumphp/plum-finder.svg?style=flat)](https://scrutinizer-ci.com/g/plumphp/plum-finder/?branch=master)
 [![Code Coverage](https://img.shields.io/scrutinizer/coverage/g/plumphp/plum-finder.svg?style=flat)](https://scrutinizer-ci.com/g/plumphp/plum-finder/?branch=master)
+[![StyleCI](https://styleci.io/repos/30670219/shield)](https://styleci.io/repos/30670219)
 
 Developed by [Florian Eckerstorfer](https://florian.ec) in Vienna, Europe.
 
