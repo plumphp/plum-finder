@@ -15,9 +15,8 @@ use Mockery;
 use stdClass;
 
 /**
- * FinderReaderTest
+ * FinderReaderTest.
  *
- * @package   Plum\PlumFinder
  * @author    Florian Eckerstorfer <florian@eckerstorfer.co>
  * @copyright 2014-2015 Florian Eckerstorfer
  *
